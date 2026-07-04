@@ -59,8 +59,14 @@
       "title": "Theme: Atmosphere"
     },
     {
+      "rel": "child",
+      "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/earthcare-marine-stratocumulus-transitions/catalog.json",
+      "type": "application/json",
+      "title": "EarthCARE Marine Stratocumulus Transitions datasets"
+    },
+    {
       "rel": "via",
-      "href": "https://github.com/johanna-mayer/mesoscale_structure/tree/main",
+      "href": "https://opensciencedata.esa.int/stac-browser/#/external/https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/earthcare-marine-stratocumulus-transitions/catalog.json",
       "type": "application/json",
       "title": "Access"
     }
