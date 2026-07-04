@@ -59,6 +59,12 @@
       "title": "Theme: Atmosphere"
     },
     {
+      "rel": "related",
+      "href": "https://github.com/ESA-EarthCODE/data_access_examples/blob/main/earthcare-marine-stratocumulus-transitions/use_finetuned_goes_model_example.ipynb",
+      "type": "application/json",
+      "title": "Example Inference with Finetuned GOES Model"
+    },
+    {
       "rel": "child",
       "href": "https://s3.waw4-1.cloudferro.com/EarthCODE/Catalogs/earthcare-marine-stratocumulus-transitions/catalog.json",
       "type": "application/json",
