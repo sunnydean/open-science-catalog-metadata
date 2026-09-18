@@ -1,0 +1,111 @@
+{
+  "type": "Collection",
+  "id": "eo-datahub-eocis-arctic-sea-ice-thickness-monthly",
+  "stac_version": "1.0.0",
+  "description": "The sea ice products provide a 5x5 km grid of Arctic sea ice thickness (for the whole Arctic region and of 17 sub-regions), delivered as NetCDF files.  EOCIS sea ice thickness NetCDF products are generated monthly by the Centre for Polar Observation and Modelling (CPOM) from radar altimetry measurements taken from the ESA CryoSAT-2 satellite during the winter months (Oct-Apr). Sea ice thickness is only reliably measured from satellite radar altimetry during the winter months. During summer, melt ponds can form on the sea ice floes making it difficult for the satellite to differentiate between floes and leads, and hence calculate sea ice freeboard (and subsequently thickness). Measurement during summer months using radar altimetry is an area of active research (Landy et al, 2022) but is not yet operationally processed.",
+  "links": [
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../national-infrastructures-federation/eo-datahub/catalog.json",
+      "type": "application/json",
+      "title": "Project: UK EO DataHub"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/cryosat-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: CryoSat-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/sea-ice-thickness/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Sea-ice thickness"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "via",
+      "href": "https://eodatahub.org.uk/api/catalogue/stac/catalogs/public/catalogs/ceda-stac-catalogue/collections/eocis-arctic-sea-ice-thickness-monthly",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://eodatahub.org.uk/api/catalogue/stac/catalogs/public/catalogs/ceda-stac-catalogue/collections/eocis-arctic-sea-ice-thickness-monthly",
+      "title": "EOCIS Arctic Monthly Gridded Sea Ice Thickness Product from CryoSat-2"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/eo-datahub-eocis-arctic-sea-ice-thickness-monthly/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-09-18T15:31:55.470712Z",
+  "updated": "2026-09-18T15:31:55.470712Z",
+  "osc:project": "eo-datahub",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:missions": [
+    "cryosat-2"
+  ],
+  "osc:variables": [
+    "sea-ice-thickness"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "title": "EOCIS Arctic Monthly Gridded Sea Ice Thickness Product from CryoSat-2",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          44.1015,
+          180,
+          88.2304
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-11-15T00:00:00Z",
+          "2024-11-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Sea Ice",
+    "Thickness",
+    "Radar Altimeters"
+  ]
+}

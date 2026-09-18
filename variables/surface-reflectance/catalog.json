@@ -50,6 +50,12 @@
       "href": "../../products/arceme-datacubes-emdat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_LANDSAT7_L2A/collection.json",
+      "type": "application/json",
+      "title": "THEIA LANDSAT7 L2A"
     }
   ],
   "stac_extensions": [

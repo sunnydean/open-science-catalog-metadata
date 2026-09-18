@@ -457,6 +457,30 @@
       "href": "../../products/eowetmet-annual-lake-ice-regime-classification-nwt-sweden/collection.json",
       "type": "application/json",
       "title": "EOWetMet: Annual Lake Ice Regime Classification Dataset for NWT and Sweden (2021-2025)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-datahub-eocis-lst-s3a-day/collection.json",
+      "type": "application/json",
+      "title": "EOCIS Land Surface Temperature from Sentinel 3A daily (day)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_OSO_VECTOR_L3B/collection.json",
+      "type": "application/json",
+      "title": "THEIA OSO VECTOR"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_OSO_RASTER_L3B/collection.json",
+      "type": "application/json",
+      "title": "THEIA OSO RASTER"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_LANDSAT7_L2A/collection.json",
+      "type": "application/json",
+      "title": "THEIA LANDSAT7 L2A"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

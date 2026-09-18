@@ -290,6 +290,18 @@
       "href": "../../products/arceme-datacubes-emdat/collection.json",
       "type": "application/json",
       "title": "ARCEME Data Cubes - EM-DAT Disaster Sites"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_OSO_VECTOR_L3B/collection.json",
+      "type": "application/json",
+      "title": "THEIA OSO VECTOR"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_OSO_RASTER_L3B/collection.json",
+      "type": "application/json",
+      "title": "THEIA OSO RASTER"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

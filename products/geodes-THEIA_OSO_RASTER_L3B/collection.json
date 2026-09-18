@@ -1,0 +1,112 @@
+{
+  "type": "Collection",
+  "id": "geodes-THEIA_OSO_RASTER_L3B",
+  "stac_version": "1.0.0",
+  "description": "Main characteristics of the OSO Land Cover product : Production of national maps (mainland France). Nomenclature with 17 classes (2016, 2017) and 23 classes since 2018, spatial resolution between 10 m (raster) and 20 m (vector), annual update frequency. Input data : multi-temporal optical image series with high spatial resolution (Sentinel-2). The classification raster is a single raster covering the whole French metropolitan territory. It has a spatial resolution of 10 m. It results from the processing of the complete Sentinel-2 time series of the reference year using the iota² processing chain. A Random Forest classification model is calibrated using a training dataset derived from a combination of several national and international vector data sources (BD TOPO IGN, Corine Land Cover, Urban Atlas, Référentiel Parcellaire Graphique, etc.).",
+  "links": [
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../national-infrastructures-federation/geodes/catalog.json",
+      "type": "application/json",
+      "title": "Project: GEODES"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-2/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/land-cover/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Land cover"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://geodes-portal.cnes.fr/api/stac/collections/THEIA_OSO_RASTER_L3B",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://geodes-portal.cnes.fr/api/stac/collections/THEIA_OSO_RASTER_L3B",
+      "title": "THEIA OSO RASTER"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/geodes-THEIA_OSO_RASTER_L3B/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "created": "2026-09-18T15:31:55.501162Z",
+  "updated": "2026-09-18T15:31:55.501162Z",
+  "osc:project": "geodes",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:missions": [
+    "sentinel-2"
+  ],
+  "osc:variables": [
+    "land-cover"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "title": "THEIA OSO RASTER",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.257577454671264,
+          40.45568636152893,
+          11.852943152189255,
+          51.45118009764701
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "etalab-2.0",
+  "keywords": [
+    "oso",
+    "raster",
+    "l3b-oso",
+    "l3b"
+  ]
+}

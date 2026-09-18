@@ -2150,6 +2150,42 @@
       "href": "./careheat-database/collection.json",
       "type": "application/json",
       "title": "Marine heatwaves and cold spells events (CAREHeat) database"
+    },
+    {
+      "rel": "child",
+      "href": "./eo-datahub-eocis-lst-s3a-day/collection.json",
+      "type": "application/json",
+      "title": "EOCIS Land Surface Temperature from Sentinel 3A daily (day)"
+    },
+    {
+      "rel": "child",
+      "href": "./geodes-THEIA_OSO_VECTOR_L3B/collection.json",
+      "type": "application/json",
+      "title": "THEIA OSO VECTOR"
+    },
+    {
+      "rel": "child",
+      "href": "./eo-datahub-eocis-aerosol-slstr-daily-s3a/collection.json",
+      "type": "application/json",
+      "title": "EOCIS AEROSOL from Sentinel 3A daily"
+    },
+    {
+      "rel": "child",
+      "href": "./eo-datahub-eocis-arctic-sea-ice-thickness-monthly/collection.json",
+      "type": "application/json",
+      "title": "EOCIS Arctic Monthly Gridded Sea Ice Thickness Product from CryoSat-2"
+    },
+    {
+      "rel": "child",
+      "href": "./geodes-THEIA_OSO_RASTER_L3B/collection.json",
+      "type": "application/json",
+      "title": "THEIA OSO RASTER"
+    },
+    {
+      "rel": "child",
+      "href": "./geodes-THEIA_REFLECTANCE_LANDSAT7_L2A/collection.json",
+      "type": "application/json",
+      "title": "THEIA LANDSAT7 L2A"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

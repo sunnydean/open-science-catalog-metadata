@@ -1,0 +1,49 @@
+{
+  "type": "Catalog",
+  "id": "geodes",
+  "stac_version": "1.0.0",
+  "description": "CNES infrastructure for discovery and distribution of Earth observation data.",
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://geodes.cnes.fr/",
+      "title": "Website"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "National Infrastructures Federation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_OSO_VECTOR_L3B/collection.json",
+      "type": "application/json",
+      "title": "THEIA OSO VECTOR"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_OSO_RASTER_L3B/collection.json",
+      "type": "application/json",
+      "title": "THEIA OSO RASTER"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/national-infrastructures-federation/geodes/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_LANDSAT7_L2A/collection.json",
+      "type": "application/json",
+      "title": "THEIA LANDSAT7 L2A"
+    }
+  ],
+  "title": "GEODES"
+}

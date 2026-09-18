@@ -607,6 +607,12 @@
       "href": "../../products/ai4ais-larsen-c-ice-shelf-cube/collection.json",
       "type": "application/json",
       "title": "AI4AIS Larsen C ice shelf cube"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-datahub-eocis-arctic-sea-ice-thickness-monthly/collection.json",
+      "type": "application/json",
+      "title": "EOCIS Arctic Monthly Gridded Sea Ice Thickness Product from CryoSat-2"
     }
   ],
   "updated": "2024-08-27T17:27:42.199831Z",

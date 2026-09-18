@@ -566,6 +566,18 @@
       "href": "../../products/booms-dataset/collection.json",
       "type": "application/json",
       "title": "Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) Satellite Derived Seascapes"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-datahub-eocis-lst-s3a-day/collection.json",
+      "type": "application/json",
+      "title": "EOCIS Land Surface Temperature from Sentinel 3A daily (day)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-datahub-eocis-aerosol-slstr-daily-s3a/collection.json",
+      "type": "application/json",
+      "title": "EOCIS AEROSOL from Sentinel 3A daily"
     }
   ],
   "updated": "2024-08-27T17:27:42.174831Z",

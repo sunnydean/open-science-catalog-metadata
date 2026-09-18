@@ -1,0 +1,49 @@
+{
+  "type": "Catalog",
+  "id": "eo-datahub",
+  "stac_version": "1.0.0",
+  "description": "UK infrastructure for discovery and access to Earth observation data.",
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eodatahub.org.uk/",
+      "title": "Website"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "National Infrastructures Federation"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-datahub-eocis-lst-s3a-day/collection.json",
+      "type": "application/json",
+      "title": "EOCIS Land Surface Temperature from Sentinel 3A daily (day)"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-datahub-eocis-aerosol-slstr-daily-s3a/collection.json",
+      "type": "application/json",
+      "title": "EOCIS AEROSOL from Sentinel 3A daily"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/national-infrastructures-federation/eo-datahub/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/eo-datahub-eocis-arctic-sea-ice-thickness-monthly/collection.json",
+      "type": "application/json",
+      "title": "EOCIS Arctic Monthly Gridded Sea Ice Thickness Product from CryoSat-2"
+    }
+  ],
+  "title": "UK EO DataHub"
+}
