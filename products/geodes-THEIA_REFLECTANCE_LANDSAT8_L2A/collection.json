@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "geodes-THEIA_REFLECTANCE_LANDSAT7_L2A",
+  "id": "geodes-THEIA_REFLECTANCE_LANDSAT8_L2A",
   "stac_version": "1.0.0",
-  "description": "Data ortho-rectified surface reflectance after atmospheric correction, along with a mask of clouds and their shadows, as well as a mask of water and snow. The processing methods and the data format are similar to the LANDSAT 8 data set. However there are  a few differences due to input data. A resampling to Lambert'93 projection, tiling of data similar to Sentinel2, and processing with MACSS/MAJA, using multi-temporal methods for cloud screening, cloud shadow detection, water detection as well as for the estimation of the aerosol optical thickness. Time series merge LANDSAT 5 and LANDSAT 7 data as well as LANDSAT 5 data coming from adjacent tracks. The data format is the same as for Spot4/Take5.",
+  "description": "The level 2A products correct the data for atmospheric effects along with a mask of clouds and their shadows, as well as a mask of water and snow. Landsat products are provided by Theia in surface reflectance (level 2A) with cloud masks, the processing being performed with the MAJA algorithm. They are orthorectified and cut on the same tiles as Sentinel-2 products.",
   "links": [
     {
       "rel": "parent",
@@ -18,9 +18,9 @@
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/landsat-7/catalog.json",
+      "href": "../../eo-missions/landsat-8/catalog.json",
       "type": "application/json",
-      "title": "EO Mission: Landsat-7"
+      "title": "EO Mission: Landsat-8"
     },
     {
       "rel": "related",
@@ -36,14 +36,14 @@
     },
     {
       "rel": "via",
-      "href": "https://geodes-portal.cnes.fr/api/stac/collections/THEIA_REFLECTANCE_LANDSAT7_L2A",
+      "href": "https://geodes-portal.cnes.fr/api/stac/collections/THEIA_REFLECTANCE_LANDSAT8_L2A",
       "title": "Access",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "https://geodes-portal.cnes.fr/api/stac/collections/THEIA_REFLECTANCE_LANDSAT7_L2A",
-      "title": "THEIA LANDSAT7 L2A",
+      "href": "https://geodes-portal.cnes.fr/api/stac/collections/THEIA_REFLECTANCE_LANDSAT8_L2A",
+      "title": "THEIA LANDSAT8 L2A",
       "type": "application/json"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/geodes-THEIA_REFLECTANCE_LANDSAT7_L2A/collection.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/geodes-THEIA_REFLECTANCE_LANDSAT8_L2A/collection.json",
       "type": "application/json"
     }
   ],
@@ -62,13 +62,13 @@
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "created": "2026-09-18T15:31:55.532035Z",
-  "updated": "2026-09-18T15:31:55.532035Z",
+  "created": "2026-09-21T08:24:57.737283Z",
+  "updated": "2026-09-21T08:24:57.737283Z",
   "osc:project": "geodes",
   "osc:status": "completed",
   "osc:type": "product",
   "osc:missions": [
-    "landsat-7"
+    "landsat-8"
   ],
   "osc:variables": [
     "surface-reflectance"
@@ -83,33 +83,32 @@
       ]
     }
   ],
-  "title": "THEIA LANDSAT7 L2A",
+  "title": "THEIA LANDSAT8 L2A",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -5.231961747631431,
-          41.99157590512186,
-          8.738872921094298,
-          51.18774572387338
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2009-01-03T10:42:49Z",
-          "2011-12-29T10:36:24Z"
+          "2013-04-11T10:13:56Z",
+          "2021-08-31T22:51:30Z"
         ]
       ]
     }
   },
-  "license": "etalab-2.0",
+  "license": "Apache-2.0",
   "keywords": [
-    "L7",
+    "l8",
     "Landsat",
-    "Landsat7",
-    "l7",
+    "Landsat8",
     "l2a",
     "n2a",
     "surface",

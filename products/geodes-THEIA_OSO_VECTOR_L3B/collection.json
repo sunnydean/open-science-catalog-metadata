@@ -37,12 +37,14 @@
     {
       "rel": "via",
       "href": "https://geodes-portal.cnes.fr/api/stac/collections/THEIA_OSO_VECTOR_L3B",
-      "title": "Access"
+      "title": "Access",
+      "type": "application/json"
     },
     {
       "rel": "child",
       "href": "https://geodes-portal.cnes.fr/api/stac/collections/THEIA_OSO_VECTOR_L3B",
-      "title": "THEIA OSO VECTOR"
+      "title": "THEIA OSO VECTOR",
+      "type": "application/json"
     },
     {
       "rel": "root",

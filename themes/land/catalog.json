@@ -481,6 +481,24 @@
       "href": "../../products/geodes-THEIA_REFLECTANCE_LANDSAT7_L2A/collection.json",
       "type": "application/json",
       "title": "THEIA LANDSAT7 L2A"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_SENTINEL2_L2A/collection.json",
+      "type": "application/json",
+      "title": "THEIA SENTINEL2 L2A"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_SENTINEL2_L3A/collection.json",
+      "type": "application/json",
+      "title": "THEIA SENTINEL2 L3A"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_LANDSAT8_L2A/collection.json",
+      "type": "application/json",
+      "title": "THEIA LANDSAT8 L2A"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

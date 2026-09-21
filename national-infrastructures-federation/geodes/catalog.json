@@ -34,15 +34,33 @@
       "title": "THEIA OSO RASTER"
     },
     {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_LANDSAT7_L2A/collection.json",
+      "type": "application/json",
+      "title": "THEIA LANDSAT7 L2A"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_SENTINEL2_L2A/collection.json",
+      "type": "application/json",
+      "title": "THEIA SENTINEL2 L2A"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_SENTINEL2_L3A/collection.json",
+      "type": "application/json",
+      "title": "THEIA SENTINEL2 L3A"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/national-infrastructures-federation/geodes/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "../../products/geodes-THEIA_REFLECTANCE_LANDSAT7_L2A/collection.json",
+      "href": "../../products/geodes-THEIA_REFLECTANCE_LANDSAT8_L2A/collection.json",
       "type": "application/json",
-      "title": "THEIA LANDSAT7 L2A"
+      "title": "THEIA LANDSAT8 L2A"
     }
   ],
   "title": "GEODES"
